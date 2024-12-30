@@ -1,0 +1,39 @@
+html {
+  font-family: "yekan" !important;
+  background-color: #efefef;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+.MuiButton-icon {
+  margin-left: 8px !important;
+  margin-right: -2px !important;
+}
+.MuiTypography-root,
+.MuiFormLabel-root,
+.MuiInputBase-root,
+.MuiButtonBase-root,
+.MuiFormHelperText-root,
+.MuiAlert-message,
+.MuiChip-root,
+.MuiButtonBase-root {
+  font-family: "yekan" !important;
+}
+
+.MuiFormHelperText-root {
+  text-align: right !important;
+}
+
+.MuiFormControlLabel-root .MuiButtonBase-root {
+  padding: 8px 6px 6px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  text-align: right !important;
+}
+.MuiBox-root,
+.MuiDialog-container {
+  direction: rtl;
+}
