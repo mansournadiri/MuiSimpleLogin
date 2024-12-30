@@ -74,12 +74,6 @@ export function Home() {
               </Typography>
               {auth?.user?.mobileNumber}
             </Typography>
-            <Typography variant="body1" sx={{ marginBottom: "7px" }}>
-              <Typography component={"span"} sx={{ fontWeight: "bold" }}>
-                شماره گواهینامه :{" "}
-              </Typography>
-              {auth?.user?.driverLincenseNumber}
-            </Typography>
           </CardContent>
         </Card>
       </Grid2>

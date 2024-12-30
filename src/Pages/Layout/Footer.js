@@ -22,7 +22,7 @@ export default function Footer({ activeMenu }) {
   };
   const tabs = [
     { title: "صفحه اصلی", link: "/", icon: <HomeIcon /> },
-    { title: "خود اظهاری", link: "/user/request", icon: <ChecklistIcon /> },
+    { title: "پروفایل", link: "/user/request", icon: <ChecklistIcon /> },
     { title: "گزارشات", link: "/user/report", icon: <SummarizeIcon /> },
   ];
 

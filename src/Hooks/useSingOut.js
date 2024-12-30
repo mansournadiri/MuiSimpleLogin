@@ -1,4 +1,3 @@
-// import axios from "../api/useAxios";
 import useAuth from "../context/useAuth";
 
 const useSingOut = () => {
